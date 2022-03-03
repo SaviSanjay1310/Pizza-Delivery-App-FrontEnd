@@ -1,12 +1,12 @@
 const pizzas =[
   {
     name: "PEPPER BARBECUE CHICKEN",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 200,
-        Medium: 350,
-        Large: 400,
+        small: 200,
+        medium: 350,
+        large: 400,
       },
     ],
     category: "nonveg",
@@ -15,12 +15,12 @@ const pizzas =[
   },
   {
     name: "Non Veg Supreme",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 200,
-        Medium: 350,
-        Large: 400,
+        small: 200,
+        medium: 350,
+        large: 400,
       },
     ],
     category: "nonveg",
@@ -30,12 +30,12 @@ const pizzas =[
   },
   {
     name: "Golden Corn Pizza",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 180,
-        Medium: 250,
-        Large: 380,
+        small: 180,
+        medium: 250,
+        large: 380,
       },
     ],
     category: "veg",
@@ -45,12 +45,12 @@ const pizzas =[
   },
   {
     name: "Jalapeno & Red Paprika Pizza",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 200,
-        Medium: 300,
-        Large: 420,
+        small: 200,
+        medium: 300,
+        large: 420,
       },
     ],
     category: "veg",
@@ -60,12 +60,12 @@ const pizzas =[
   },
   {
     name: "Margerita",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 150,
-        Medium: 220,
-        Large: 300,
+        small: 150,
+        medium: 220,
+        large: 300,
       },
     ],
     category: "veg",
@@ -76,11 +76,11 @@ const pizzas =[
   },
   {
     name: "Double Cheese Margherita Pizza",
-    varients: ["Small", "Medium", "Large"],
+    varients: ["small", "medium", "large"],
     prices: [
       {
-        Small: 250,
-        Medium: 380,
+        small: 250,
+        medium: 380,
       },
     ],
     category: "veg",
