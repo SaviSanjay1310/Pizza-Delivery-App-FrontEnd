@@ -13,7 +13,9 @@ Source code: https://github.com/SaviSanjay1310/Pizza-Delivery-App-Backend
 
 Backend Deployed Url: 
 For pizzas list: https://pizza-delivery-app-backend.herokuapp.com/api/pizzas/getallpizzas
+<br/>
 For orders list: https://pizza-delivery-app-backend.herokuapp.com/api/orders/getallorders
+<br/>
 For users list: https://pizza-delivery-app-backend.herokuapp.com/api/users/getallusers
 
 
