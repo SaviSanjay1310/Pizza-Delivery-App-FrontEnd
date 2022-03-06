@@ -1,3 +1,23 @@
+Hey There,
+
+To access the admin panel the link is as below: https://sad-hopper-f56f84.netlify.app/admin
+
+Login credentials for admin:
+
+Username: savi1@gmail.com
+Password:savi123
+
+The link to access the backend is as below:
+
+Source code: https://github.com/SaviSanjay1310/Pizza-Delivery-App-Backend
+
+Backend Deployed Url: 
+For pizzas list: https://pizza-delivery-app-backend.herokuapp.com/api/pizzas/getallpizzas
+For orders list: https://pizza-delivery-app-backend.herokuapp.com/api/orders/getallorders
+For users list: https://pizza-delivery-app-backend.herokuapp.com/api/users/getallusers
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
