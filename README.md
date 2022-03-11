@@ -4,8 +4,8 @@ To access the admin panel the link is as below: https://sad-hopper-f56f84.netlif
 
 Login credentials for admin:
 
-Username: savi1@gmail.com
-Password:savi123
+Username: savi1@gmail.com <br/>
+Password: savi123
 
 The link to access the backend is as below:
 
@@ -18,6 +18,10 @@ For orders list: https://pizza-delivery-app-backend.herokuapp.com/api/orders/get
 <br/>
 For users list: https://pizza-delivery-app-backend.herokuapp.com/api/users/getallusers
 
+Card Details:
+Card-No: 4242 4242 4242 4242 <br/>
+MM/YY: 12 / 23 <br/>
+CVC: 123 <br/>
 
 
 # Getting Started with Create React App
