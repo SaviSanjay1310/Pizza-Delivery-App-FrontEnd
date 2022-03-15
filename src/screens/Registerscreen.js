@@ -48,6 +48,7 @@ export default function Registerscreen() {
             <input
               type="password"
               placeholder="password"
+              pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
               className="form-control"
               value={password}
               required
@@ -56,6 +57,7 @@ export default function Registerscreen() {
             <input
               type="password"
               placeholder="confirm password"
+              pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
               className="form-control"
               value={cpassword}
               required
