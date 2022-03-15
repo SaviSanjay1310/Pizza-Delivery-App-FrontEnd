@@ -44,11 +44,12 @@ export default function Registerscreen() {
           </h2>
           <div>
             <input required type="text" placeholder="name" className="form-control" value={name} onChange={(e)=>{setname(e.target.value)}} />
-            <input required type="text" placeholder="email" className="form-control" value={email} onChange={(e)=>{setemail(e.target.value)}} />
+            <input required type="text" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required
+              placeholder="email" 
+              className="form-control" value={email} onChange={(e)=>{setemail(e.target.value)}} />
             <input
               type="password"
               placeholder="password"
-              pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
               className="form-control"
               value={password}
               required
@@ -57,7 +58,6 @@ export default function Registerscreen() {
             <input
               type="password"
               placeholder="confirm password"
-              pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
               className="form-control"
               value={cpassword}
               required
